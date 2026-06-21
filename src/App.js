@@ -2,7 +2,7 @@ import "./App.css";
 import InfoCard from "./components/InfoCard";
 
 function App() {
-  const buildVersion = process.env.REACT_APP_VERSION || "1.0.0";
+  const buildVersion = process.env.REACT_APP_VERSION || "2.0.0";
 
   return (
     <div className="container">
